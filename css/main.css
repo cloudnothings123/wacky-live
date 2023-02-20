@@ -1,0 +1,9 @@
+body {
+  font-family: 'Comic Sans MS';
+  cursor: url('assets/images/handPointing.png'), auto;
+  margin: 0;
+}
+
+marquee {
+  background-image: url('/assets/images/marqueeBackgroundSmiley.png');
+}
