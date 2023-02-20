@@ -1,9 +1,83 @@
 body {
   font-family: 'Comic Sans MS';
-  cursor: url('assets/images/handPointing.png'), auto;
+  cursor: url('/assets/images/handPointing.png'), auto;
   margin: 0;
 }
 
 marquee {
   background-image: url('/assets/images/marqueeBackgroundSmiley.png');
+}
+
+table {
+  background-image: url('/assets/images/dancingRaisin.gif');
+  background-repeat: repeat;
+  width: 1440px;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+}
+
+.video_row {
+  height: 450px;
+}
+
+iframe {
+  width: 420px;
+  height: 315px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+td {
+  width: 480px;
+}
+
+.shortimage {
+  height: 170px;
+}
+
+.jesus {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+.puzzle_row {
+  height: 400px;
+  background-image: url('/assets/images/puzzleBackground.gif');
+}
+
+.i_remember {
+  height: 50px;
+}
+
+.center {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.get_tickets {
+  width: 500px;
+  height: 50px;
+  background: black;
+}
+
+button {
+  background: black;
+  height: 50px;
+  font-size: 2rem;
+  border: 5px solid yellow;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+button a {
+  color: yellow;
+}
+
+.bottom_table {
+  background-image: url('/assets/images/computerHacker.gif');
+  width: 1440px;
+  height: 350px;
 }
