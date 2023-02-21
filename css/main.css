@@ -11,45 +11,45 @@ marquee {
 table {
   background-image: url('/assets/images/dancingRaisin.gif');
   background-repeat: repeat;
-  width: 1440px;
-  height: 500px;
+  width: 90rem;
+  height: 31.25rem;
   margin: 0;
   padding: 0;
 }
 
 .video_row {
-  height: 450px;
+  height: 28.125rem;
 }
 
 iframe {
-  width: 420px;
-  height: 315px;
+  width: 26.25rem;
+  height: 19.688rem;
   display: block;
   margin: 0 auto;
 }
 
 
 td {
-  width: 480px;
+  width: 30rem;
 }
 
 .shortimage {
-  height: 170px;
+  height: 10.625rem;
 }
 
 .jesus {
-  width: 400px;
+  width: 25rem;
   display: block;
   margin: 0 auto;
 }
 
 .puzzle_row {
-  height: 400px;
+  height: 25rem;
   background-image: url('/assets/images/puzzleBackground.gif');
 }
 
 .i_remember {
-  height: 50px;
+  height: 3.125rem;
 }
 
 .center {
@@ -58,18 +58,18 @@ td {
 }
 
 .get_tickets {
-  width: 500px;
-  height: 50px;
+  width: 31.25rem;
+  height: 3.125rem;
   background: black;
 }
 
 button {
   background: black;
-  height: 50px;
+  height: 3.125rem;
   font-size: 2rem;
-  border: 5px solid yellow;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  border: 0.313rem solid yellow;
+  margin-bottom: 0.625rem;
+  margin-top: 0.625rem;
 }
 
 button a {
@@ -78,6 +78,55 @@ button a {
 
 .bottom_table {
   background-image: url('/assets/images/computerHacker.gif');
-  width: 1440px;
-  height: 350px;
+  width: 90rem;
+  height: 21.875rem;
+}
+
+@media screen and (max-width: 480px) {
+  .no_phone {
+    display: none;
+  }
+
+  table {
+    width: 27rem;
+  }
+
+  .bottom_table {
+    width: 27rem;
+  }
+
+  iframe {
+    width: 27rem;
+    margin-top: 5rem;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  tr {
+    display: flex;
+    flex-direction: column;
+    width: 27rem;
+    margin: 0;
+  }
+
+  td {
+    display: flex;
+    flex-direction: column;
+    width: 27rem;
+    margin: 0;
+  }
+
+  .top_marquee {
+    width: 27rem;
+    margin-left: 0;
+  }
+
+  .get_tickets {
+    width: 27rem;
+  }
 }
