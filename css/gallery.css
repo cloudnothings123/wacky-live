@@ -1,0 +1,45 @@
+.intro {
+    text-align: center;
+    font-family: Arial;
+}
+
+.craft {
+    background-image: url("/assets/images/craft.gif")
+}
+
+.home {
+    height: 30rem;
+    width: 30rem;
+    display: flex;
+    margin-left: 30rem;
+}
+
+.image-gallery {
+    width: 50rem;
+}
+
+p {
+    font-size: 14pt;
+}
+
+#image-gallery {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#current-image {
+    width: 100%;
+}
+
+#image-thumbs {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.thumb {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+}

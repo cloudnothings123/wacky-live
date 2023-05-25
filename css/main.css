@@ -17,6 +17,11 @@ table {
   padding: 0;
 }
 
+.dates {
+  height: 200px;
+  width: 26.56rem;
+}
+
 .video_row {
   height: 28.125rem;
 }
@@ -63,6 +68,16 @@ td {
   background: black;
 }
 
+.photos-text {
+  width: 30rem;
+  height: 30rem;
+  background: linear-gradient(#00ff06, #ffff00, #00d4ff);
+}
+
+.new-flier {
+  width: 25rem;
+}
+
 button {
   background: black;
   height: 3.125rem;
@@ -80,6 +95,18 @@ button a {
   background-image: url('/assets/images/computerHacker.gif');
   width: 90rem;
   height: 21.875rem;
+}
+
+.screening-green {
+  background-color: limegreen;
+  color: blue;
+  font-size: 1.3rem;
+}
+
+.screening-red {
+  color: red;
+  background-color: black;
+  font-size: 1.3rem; 
 }
 
 @media screen and (max-width: 480px) {
