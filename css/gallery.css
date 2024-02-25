@@ -4,7 +4,11 @@
 }
 
 .craft {
-    background-image: url("/assets/images/craft.gif")
+    background-image: url("/assets/images/galleryspacebackground.jpeg")
+}
+
+.wacky-pics {
+    margin-top: 2em;
 }
 
 .home {
@@ -12,6 +16,24 @@
     width: 30rem;
     display: flex;
     margin-left: 30rem;
+}
+
+.arrows {
+    display: flex;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+.left-arrow,
+.right-arrow {
+    height: 250px;
+    width: 250px;
+    margin-left: -250px;
+    margin-top: 250px;
+}
+
+.right-arrow {
+    margin-left: -20px;
 }
 
 .image-gallery {
@@ -42,4 +64,47 @@ p {
     object-fit: cover;
     margin-right: 10px;
     cursor: pointer;
+}
+
+.old-fliers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+}
+
+.old-flier {
+    height: 30em;
+}
+
+@media screen and (max-width: 480px) {
+
+    .image-gallery {
+        width: 390px;
+        margin-left: -15px;
+    }
+
+    #current-image {
+        width: 370px;
+    }
+
+    #image-thumbs {
+        width: 380px;
+    }
+
+    #image-gallery {
+        width: 380px;
+    }
+
+    .home {
+        height: 200px;
+        width: 250px;
+        margin-left: 60px;
+        display: block;
+    }
+
+    .old-fliers {
+        flex-direction: column;
+    }
+
 }

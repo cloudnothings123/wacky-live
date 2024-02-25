@@ -1,5 +1,7 @@
 let imageThumbs = document.getElementById("image-thumbs")
 let currentImage = document.getElementById('current-image')
+let rightArrow = document.getElementById('right-arrow')
+let leftArrow = document.getElementById('left-arrow')
 for (let i=1; i<= 171; i++){
     let thumb = document.createElement('img')
     thumb.src = 'assets/gallery-images/image' + i + '.jpg'
