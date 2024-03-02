@@ -77,6 +77,10 @@ p {
     height: 30em;
 }
 
+.old-fliers-row-2 {
+    margin-top: 1em;
+}
+
 @media screen and (max-width: 480px) {
 
     .image-gallery {
